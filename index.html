@@ -9,7 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
 </head>
 <body>
-    <div>
+    
         <div class="Header">     
             <div class="SpaceHeading">
                 <div class="Top">
@@ -36,10 +36,94 @@
                       <input type="text" placeholder="Search Tasks...">
                       <div class="PseudoAfterBottom"></div>
                     </div>  
-                </div>    
+                </div>  
+                <div class="GroupBottom" style="padding: 0px 24px 0px 0px;">
+                    <div class="IconPlaceholder" style="background-color:#747A84"></div>
+                    <p>Filter</p>
+                    <div class="IconPlaceholder" style="background-color:#747A84"></div>
+                    <p>Show</p>
+                </div>  
+                
             </div>
         </div>
-        <div class="TaskBody"></div>
-     </div>
+        <div class="TaskBody">
+            <div class="InnerContainer">
+                <div class="TaskHeader">
+                    <div class="TaskGroup">
+                        <div class="IconPlaceholder"></div>
+                        <h1>Coding</h1>   
+                    </div>
+                    <div class="TaskGroup">
+                        <div class="IconPlaceholder"></div>
+                        <p>Show Closed</p>   
+                    </div>
+                    
+                </div>
+                <div class="TaskContainer">
+                    <button class="CollapseButton">></button>
+                    <div class="TaskItems">
+                        <div class="ItemsHeader">
+                            <div class="Active">
+                            <p>Active</p>
+                            </div>
+                            <div class="Labels">
+                                <p>Assignee</p>
+                                <p>Due Date</p>
+                                <p>Priority</p>
+                                <p>Status</p>
+                                <p>Progress</p>
+                                <p>Complexity</p>
+                            </div>
+                        
+                        </div>
+                        <div class="Items">
+                            <div class="ItemContainer">
+                                <div class="ItemDescription">
+                                    <div class="IconPlaceholder"></div>
+                                    <p>Complete NNN</p>
+                                </div>
+                                <div class="ItemDetails">
+                                    <div class="Circle"></div>
+                                    <p>Nov 30</p>
+                                    <p>High</p>
+                                    <div class="Status">
+                                    <p>Active</p>    
+                                    </div>
+                                    <p>-</p>
+                                    <p>Dank</p>
+                                </div>
+                            </div>
+
+                            <div class="ItemContainer">
+                                <div class="ItemDescription">
+                                    <div class="IconPlaceholder"></div>
+                                    <p>Complete Mock Up</p>
+                                </div>
+                                <div class="ItemDetails">
+                                    <div class="Circle"></div>
+                                    <p>Nov 30</p>
+                                    <p>High</p>
+                                    <div class="Status">
+                                    <p>Active</p>    
+                                    </div>
+                                    <p>-</p>
+                                    <p>Hard</p>
+                                </div>
+                            </div>
+
+                            
+                            <button class="NewTask">
+                                <p style="font-size: 22px; margin-right: 3px;">+</p>
+                                <p style="font-size: 11px;">New Item</p>  
+                            </button>
+                                
+                           
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
 </body>
 </html>
